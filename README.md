@@ -34,14 +34,14 @@ Calculate the accuracy, confusion and classification report by importing the req
 
 Program to implement the the Logistic Regression Using Gradient Descent.
 
-Developed by: Monisha T
-RegisterNumber: 212221240029
+Developed by: Javith Farkhan
+RegisterNumber: 212221240017
 
 
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
-datasets=pd.read_csv('Social_Network_Ads (1).csv')
+datasets=pd.read_csv('Social_Network_Ads.csv')
 x=datasets.iloc[:,[2,3]].values
 y=datasets.iloc[:,4].values
 from sklearn.model_selection import train_test_split
@@ -85,9 +85,9 @@ for i,j in enumerate(np.unique(y_Set)):
 
 # Output:
 
-![output](./OUTPUT1.png)
+![output](1.png)
 
-![output](./OUTPUT2.png)
+![output](2.png)
 
 
 ## Result:
